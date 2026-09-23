@@ -7,10 +7,10 @@ def array_of_names(namebook):
 
 
 persons = {
-    "jean": "valjean",
-    "Airin": "nnn",
-    "nan": "noon",
-    "fifi": "fufu",
+    "Micheal": "Jackson",
+    "Scooby": "Doo",
+    "Peter": "Parker",
+    "Max": "Verstappen",
 }
 
 print(array_of_names(persons))
