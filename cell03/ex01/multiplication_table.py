@@ -6,3 +6,4 @@ while i < 10:
     result = i * num
     print(f"{i} x {num} = {result}")
     i += 1
+    
