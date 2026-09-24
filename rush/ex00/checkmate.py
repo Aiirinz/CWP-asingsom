@@ -25,16 +25,16 @@ def checkmate(board):
   k_col = board_rows[k_row].index("K")
 
   pawn_positions = [
-      (k_row - 1, k_col - 1),
-      (k_row - 1, k_col + 1),
-      (k_row + 1, k_col - 1),
-      (k_row + 1, k_col + 1),
-  ]
-  is_checked = any(
-      0 <= r < len(board_rows)
-      and 0 <= c < len(board_rows)
-      and board_rows[r][c] == "P"
-      for r, c in pawn_positions
+    (k_row + 1, k_col - 1),
+    (k_row + 1, k_col + 1),
+]
+
+is_checked = any(
+    0 <= r < len(board_rows)
+    and 0 <= c < len(board_rows)
+    and board_rows[r][c] == "P"
+    for r, c in pawn_positions
+)
   )
 
   
