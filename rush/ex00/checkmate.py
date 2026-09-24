@@ -35,7 +35,6 @@ is_checked = any(
     and board_rows[r][c] == "P"
     for r, c in pawn_positions
 )
-  )
 
   
   for step in straight_directions:
